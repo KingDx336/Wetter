@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Das Wetter und die Jahreszeiten</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="sunny">
+
+    <h1>Das Wetter</h1>
+    <h3>Schieberegler für Wetterlage:</h3>
+    <p id="wetterText">Aktuelle Wetterlage: sonnig</p>
+    <input type="range" id="wetterSlider" min="0" max="100" step="1" value="100">
+
+    <h2>Die Jahreszeiten</h2>
+    <p style="color: white; font-family: Calibri, sans-serif; font-size: 18px;" class="jahreszeiten-text">Die Jahreszeiten teilen das Jahr in verschiedene Abschnitte. Du nennst sie Frühling, Sommer, Herbst und Winter. Sie unterscheiden sich im Wetter, der Vegetation und der Tageslänge. Die Unterschiede gibt es, weil die Erdachse schräg ist. Wenn die Erde so um die Sonne kreist, treffen die Sonnenstrahlen mit unterschiedlichen Winkeln auf die Erdoberfläche — je nachdem wo sich die Erde gerade auf ihrer Umlaufbahn befindet. Bei steilen Einfallswinkeln der Sonnenstrahlen auf die Erde wird es besonders warm. Das kennst du als den Sommer. Je flacher der Einfallswinkel der Sonnenstrahlen zur Erde  ist, desto kälter wird das Wetter. Das passiert im Winter. </p>
+    <h3>Interaktiv:</h3>
+    <ol>
+        <li>Frühling</li>
+        <li>Sommer</li>
+        <li>Herbst</li>
+        <li>Winter</li>
+    </ol>
+
+    <button class="Button1" onclick="zeigeJahreszeit('Frühling')">1</button>
+    
+    <button class="Button2" onclick="zeigeJahreszeit('Sommer')">2</button>
+    <button class="Button3" onclick="zeigeJahreszeit('Herbst')">3</button>
+    <button class="Button4" onclick="zeigeJahreszeit('Winter')">4</button>
+
+    <p id="jahreszeitText">Klicke auf einen Knopf, um dir die Jahreszeit anzuzeigen.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>

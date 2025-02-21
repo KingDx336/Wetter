@@ -1,0 +1,76 @@
+body {
+    font-family: Calibri, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+    transition: background-color 1.5s ease;
+}
+h1, h2, h3 {
+    color: #2c3e50;
+}
+h3 {
+  font-size: 20px;
+}
+p {
+    font-size: 18px;
+    transition: color 0.5s ease, background-color 0.8s ease;
+    padding: 10px;       
+    text-align: justify;  
+}
+.jahreszeiten-text {
+    max-width: 600px; 
+    margin: 0;        
+    padding: 10px;
+    text-align: justify; 
+    font-size: 18px;
+    color: white;
+}
+input[type="range"] {
+    width: 500px;
+    margin: 10px 0;
+}
+.Button1 {
+    background-color: #2ecc71;
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    outline: 1px solid black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.Button2 {
+    background-color: #f39c12;
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    outline: 1px solid black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.Button3 {
+    background-color: #e67e22;
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    outline: 1px solid black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.Button4 {
+    background-color: #3498db;
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    outline: 1px solid black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.sunny { background-color: #f39c12; color: #fff; }
+.rainy { background-color: #3498db; color: #fff; }
+.cloudy { background-color: #95a5a6; color: #fff; }
+.stormy { background-color: #34495e; color: #fff; }
